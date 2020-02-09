@@ -1,0 +1,1 @@
+list-style-image no es recomendable para poner imagenes en vez de viñetas, lo que se recomienda son los pseudoelementos

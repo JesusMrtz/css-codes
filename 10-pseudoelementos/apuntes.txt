@@ -1,0 +1,12 @@
+Los pseudoelementos son elementos que se comportan como tal pero sin ser parte del DOM
+
+
+* fist-line | first-letter 
+    - Solo funcionan con elementos en bloque
+    - Selecciona la primera linea o la primera letra
+
+
+* before | after 
+    - Contenido generado 
+    - inline por defecto 
+    - podemos imprimir atributos con attr

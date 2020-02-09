@@ -1,0 +1,27 @@
+¿Qué es el layout? 
+    - Geometría de los elementos que definen como, con que tamaño, con que separación respecto a los elementos adyacentes y en que posición se va a dibujar la pantalla
+
+
+ Elementos inline y de bloque 
+    - inline 
+        * No crea nueva líneas para cada elemento 
+        * Tiene ancho pero no alto 
+        * Se ajusta al contenido 
+
+    - Bloque 
+        * Crea una nueva línea para cada elemento 
+        * Ocupa todo el espacio horizontal diponible 
+        * Tiene ancho y alto 
+
+
+¿Que es el box model? 
+    - Es el algoritmo a través el cual el navegador dibuja las cajas en pantalla
+    - El box model solamente los tiene los elemento en bloque
+
+Tipos de caja del box model: 
+    - Caja de contenido (content box)
+    - Caja del padding (padding box) 
+    - border (border box)
+    - margin (separación de las cajas con las adyacentes)
+
+Los tamaños de margenes y padding en porcentajes son relativo al width del elemento de bloque más cercano

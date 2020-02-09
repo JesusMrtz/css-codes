@@ -1,0 +1,22 @@
+La diferencia entre texto y fuente es que el texto es el contenido y la fuente es el tipo de letra
+
+ * font-family es la familia tipografica, y hay cuatro familas de tipografias genericas:
+    - serif 
+    - sans-serif 
+    - monospace 
+    - display
+    - cursive
+
+
+* font-size permite definir el tamaño en tipografia
+
+* font-weight: 
+    - normal | bold | lighter | bolder
+    - 100 | 200 | 300 ... 400 | 500 | 600 .. 800 | 900
+    - ES el grosor de los trazos de la letras
+
+* font-stile:
+    - italic 
+
+
+* es recomendable utilizar tipografias con woff  o woff2 ya que es soportada por todos los navegadores

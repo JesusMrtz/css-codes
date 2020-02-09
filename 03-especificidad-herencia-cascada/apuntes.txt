@@ -1,0 +1,15 @@
+* Arquitectura de CSS 
+    - SMACSS 
+    - OOCSS
+    - ITCSS
+
+
+Valores de especificidad: 
+    - tags = 1
+    - clases = 10 
+    - id = 100 
+    - inline = 1000
+    - important = depende de la especificdad anterior
+
+La cascada
+    - Lo que viene después sobrescribe a lo que está antes (dependeindo de la especificidad)

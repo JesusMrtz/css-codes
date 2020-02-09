@@ -1,0 +1,17 @@
+.title {
+    background-color: yellow;
+    color: red;
+}
+
+.description {
+    background-color: green;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}

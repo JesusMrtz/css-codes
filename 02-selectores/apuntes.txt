@@ -1,0 +1,5 @@
+Para dominar css debes entender 
+    * Selectores 
+    * Especificidad 
+    * Herencia 
+    * Cascada

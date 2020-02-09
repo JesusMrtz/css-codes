@@ -1,0 +1,62 @@
+* Unidades em y rem 
+    - em. Tamaño de fuente del contexto 
+    - rem. Tamaño de fuente del root
+
+
+* Alineados de textos
+    - direction
+        * ltr | rtl
+        * Permite cambiar la dirección del texto
+        
+    - text-indent
+        * px
+        * Permite identar la primera linea de un párrafo
+
+    - text-align 
+        * start | end | left | center | right | justify
+        * Permite alinear el texto de un párrafo 
+
+    - text-align-last 
+        * start | end |left | centr | right | justify 
+        * Permite alinear la ultima linea de un párrafo
+
+    - line-height
+        * Lo recomendable para una buena lectura es de 1.3 a 1.6
+        * Permite alinear el texto verticalmente definiendo la altura de cada linea
+ 
+    - vertical-align
+        * baseline | top | bottom |
+
+
+
+* Flujo del texto 
+    - letter-spacing 
+        * Espaciado entre las letras
+
+    - word-spacing
+        * Espaciado entre las palabras
+
+
+* Decoración 
+    - text-decoration
+        - text-decoration-line: underline | line-through | overline
+        - text-decoration-color 
+        - text-decoration-style: solid | dotted | dashed | double
+
+
+ * text-shadow: 
+
+
+* Desbordamiento: 
+    - word-break: normal | break-all | keep-all
+        * Parte palabras 
+    - word-wrap: normal | break-word 
+    - text-overflow: clip | ellipsis 
+
+
+* Texto vertical 
+    - writting-mode: vertical-lr 
+    - text-orientation: upright
+
+
+* text-transform: uppercase | lowercase | capitalize | none    

@@ -1,0 +1,18 @@
+h1 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+
+p {
+    display: inline;
+    background-color: pink;
+}
+
+span {
+    display: inline-block;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,31 @@
+¿Qué es HSL?
+    - Hue (Tonalidad de color, de 0 a 360, circulo crómatico)
+    - Saturación (Intensidad de color, de gris 0% al punto puro 100%)
+    - Luminosidad (de negro %, color puro 50%, blanco 100%)
+
+Notación hsl() y hsla()
+    - hsl(numero, porcentaje, porcentaje)
+    - hsla(numero, porcentaje, porcentaje, transparencia)
+
+Importante HSL no es HSB
+
+
+* Segun las especificación los degradados son imagenes (background-image)
+    - Por lo tante posee  background-size,  background-position, etc. 
+
+    * linear-gradient ([angulo], colo1 [stop], colo2 [stop], color3 [stop])
+
+
+* Degradados radiales
+    * radial-gradient ([size shape], [at xcenter ycenter], color 1 [stop] color2 [stop] color3[stop])
+    * Shape 
+        - circle | ellipsis
+        - Si se omite, la forma será calculada por el tamaño
+    * Size 
+        - Unidades fijas o relativas (x y)
+        - Keywords 
+            * closest-side 
+            * farthest-side 
+            * closest-coner 
+            * fartherst-coner
+        - Si se omite la forma, la dimensión definira la forma

@@ -1,0 +1,18 @@
+*Los bordes se dibujan internamente en la caja
+
+* background-clip 
+    - le dice donde se el border se dibuje
+
+* El border tiene tres caracteristicas: 
+    - Grosor (border-width)
+    - Estilo (border-style)
+    - Color (border-color)
+
+
+* Box-shadow permite crear sombras 
+    - h-offset: desplazamiento horizontal
+    - v-offset: desplazamiento vertical 
+    - blur: difuminado 
+    - spread: expansión 
+    - color: color  
+    - inset 

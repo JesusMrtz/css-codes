@@ -1,0 +1,13 @@
+body {
+    font-size: 2em;
+    margin: 1em;
+}
+
+p:last-of-type::first-letter {
+    color: red;
+    font-size: 2.3em;
+    line-height: 1;
+    margin-right: .1em;
+    float: left;
+    font-family: serif;
+}

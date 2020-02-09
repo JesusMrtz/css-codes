@@ -1,0 +1,20 @@
+body {
+    font-size: 2em;
+    margin: 1em;
+}
+
+.usd::before {
+    content: '$';
+}
+
+.pen::before {
+    content: 'S/';
+}
+
+.cop::before {
+    content: '$';
+}
+
+.currency.two-decimal::after {
+    content: '.00';
+}

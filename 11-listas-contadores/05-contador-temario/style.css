@@ -1,0 +1,27 @@
+body {
+    font-size: 2em;
+}
+
+.temary {
+    counter-reset: class;
+}
+
+.class {
+    counter-increment: class;
+    counter-reset: topic;
+}
+
+.class-topic {
+    counter-increment: topic;
+    padding-left: .5em;
+}
+
+.class-title::before {
+    content: counter(class) '.- ';
+}
+
+.class-topic::before {
+    content: counter(class) '.'counter(topic) '.- ';
+    color: red;
+    font-size: .75em;
+}

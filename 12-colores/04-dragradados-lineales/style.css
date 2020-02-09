@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /*background-image: linear-gradient(red, orange, yellow, green, blue);*/
+    /** Stops **/
+    /*background-image: linear-gradient(yellow 50%, red 50%)*/
+    /*Angulos en los degradados*/
+    /*background-image: linear-gradient(to right bottom, red 50%, yellow 50%);*/
+    /* background repetitivo*/
+    background-image: repeating-linear-gradient(yellow 0, yellow 50px, red 50px, red 80px);
+    background-repeat: no-repeat;
+}

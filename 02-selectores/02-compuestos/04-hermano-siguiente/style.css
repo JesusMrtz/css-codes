@@ -1,0 +1,29 @@
+:root {
+    --color-title: green;
+    --color-subtitle: blue;
+}
+
+body {
+    font-size: 2em;
+}
+
+.title-1 {
+    color: var(--color-title);
+}
+
+.title-1+.subtitle {
+    color: var(--color-title);
+}
+
+.title-2 {
+    color: var(--color-subtitle);
+}
+
+.title-2+.subtitle {
+    color: var(--color-subtitle);
+}
+
+.subtitle {
+    font-size: .5em;
+    margin-top: -2em;
+}

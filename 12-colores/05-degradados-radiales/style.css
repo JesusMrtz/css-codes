@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /*background-image: radial-gradient(500px circle, yellow, cyan, red, rebeccapurple);*/
+    background-image: repeating-radial-gradient(circle, black 0, black 20px, white 20px, white 40px);
+}
+
+
+/*.box {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(closest-side, yellow 100%, red 100%);
+}*/

@@ -1,0 +1,12 @@
+body {
+    font-size: 2em;
+    padding: 1em;
+}
+
+span {
+    display: list-item;
+}
+
+ul {
+    list-style-type: lower-greek;
+}

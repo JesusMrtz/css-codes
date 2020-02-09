@@ -1,0 +1,3 @@
+¿Qué es CSS? 
+    - Lenguaje de estilos (Cascade Style Sheets) se encarga de describir el renderizado de documentos estructurados como HTML y XML (Canvas).
+    

@@ -1,0 +1,40 @@
+Position tienen los siguientes valores:
+    - static. (por defecto todos los elementos son static) 
+    - relative 
+    - absolute 
+    - fixed 
+    - st¡cky
+
+Propiedades ofset 
+    - Mueven un elemento posicionado
+    - Se utiliza los ofset para mover elementos posicionados segun el border indicado por: 
+        * top 
+        * right 
+        * bottom 
+        * left
+
+
+Position relative 
+    - Su referencia es su posición inicial 
+    - Aplica position relative a un elemento no modifica en nada su layout
+    - Al modeverlo con las propiedades offset, este reserva su espacio
+
+
+Position absolute 
+    - Pierde su posición en el flujo y no reserva su espacio
+    - Si tenia dimensiones fijas (width o height) se mantiene pero si tenia dimensiones automaticas este se ajustaran a su contenido
+    - Su referencia es su ancestro posicionado más cercano
+
+
+Position fixed 
+    - Está fijo (no se mueve con el scroll), relativo al viewport
+    - Se ignora en el flujo
+    - Sus dimensiones automaticas se restringen a su contenido
+
+Position sticky 
+    - Es una combinación de position relative y position fixed
+    - Necesitas un offset para ponerle un stoper para decirle donde tiene que pasar de relative a fixed
+
+
+Z-index 
+    - PAra que el elemento padre se posicione delante de sus hijo, este no debe tener un z-index declarado y su  hijos un z-index negativo

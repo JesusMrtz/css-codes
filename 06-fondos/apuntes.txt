@@ -1,0 +1,33 @@
+* background-repeat: repeat | repeat-x | repeat-y | no-repeat
+    - Repite la imagen
+
+* background-clip: border-box | padding-box | content-box 
+    - Que parte de la caja es cubierta por el fondo 
+
+* background-origin: border-box | padding-box | content-box 
+    - Desde que caja se empieza a dibuajr el fondo
+
+* background-size: 
+    - Valores: 
+        - width = height 
+        - width height 
+        - contain | cover | auto
+    - Me permite definir el tamaño del fondo 
+
+* background-position 
+    - Valores: 
+        - width = height 
+        - width height
+        - left | center | right <unit> top | center | bottom <unit>
+    - Me permite definir en donde puedo dibujar el fondo
+
+* background-attachment 
+    - Valores:
+        - scroll 
+        - fixed
+        - local
+    - Como se dibuja el fondo respecto al viewport 
+
+* Shorthand background 
+    - background: image position / size repeat attachment origin clip;
+    - position y size deben estar separados por un slash "/"

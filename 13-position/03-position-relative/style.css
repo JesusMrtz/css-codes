@@ -1,0 +1,17 @@
+h1 {
+    border: 1px solid red;
+    position: relative;
+    top: .5em;
+}
+
+.p1 {
+    position: relative;
+    top: 3em;
+    color: red;
+}
+
+.p2 {
+    color: green;
+    position: relative;
+    bottom: 3em;
+}

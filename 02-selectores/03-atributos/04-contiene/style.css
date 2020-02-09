@@ -1,0 +1,15 @@
+[class*="button-"] {
+    display: inline-block;
+    margin: 1em;
+    padding: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+.button-cta {
+    background-color: orange;
+}
+
+.button-alert {
+    background-color: red;
+}

@@ -1,0 +1,15 @@
+h1 {
+    background-color: red;
+}
+
+h1:-moz-full-screen {
+    background-color: pink;
+}
+
+h1:-webkit-full-screen {
+    background-color: pink;
+}
+
+h1:fullscreen {
+    background-color: pink;
+}

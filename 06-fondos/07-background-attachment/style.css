@@ -1,0 +1,21 @@
+body {
+    padding-bottom: 100em;
+}
+
+p {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 2em;
+}
+
+.parallax {
+    padding: 5em 0;
+    background-image: url('https://ep01.epimg.net/cultura/imagenes/2018/11/13/actualidad/1542109670_234413_1542112069_sumario_normal_recorte1.jpg');
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}

@@ -1,0 +1,12 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background-image: url('https://ed.team/static/images/logo.svg');
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 30px -10px #000;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom 100px right 20px;
+}

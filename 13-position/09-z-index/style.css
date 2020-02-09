@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.dad {
+    width: 500px;
+    height: 500px;
+    background-color: hsla(60, 100%, 50%, .5);
+    position: relative;
+}
+
+.son {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    text-align: center;
+    font-size: 3em;
+    line-height: var(--size);
+    position: absolute;
+    opacity: 1;
+}
+
+.son:first-child {
+    background-color: hsl(300, 100%, 50%);
+    z-index: 1000;
+}
+
+.son:nth-child(2) {
+    background-color: hsl(220, 100%, 50%);
+    top: 75px;
+    left: 75px;
+}
+
+.son:last-child {
+    background-color: hsl(100, 100%, 50%);
+    top: 150px;
+    left: 150px;
+    z-index: 1000;
+}
