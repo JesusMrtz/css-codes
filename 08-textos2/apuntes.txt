@@ -18,5 +18,7 @@ La diferencia entre texto y fuente es que el texto es el contenido y la fuente e
 * font-stile:
     - italic 
 
-
+* Shortand font:
+    - font:font-variant font-weight font-size/line-height font-family
+   
 * es recomendable utilizar tipografias con woff  o woff2 ya que es soportada por todos los navegadores
