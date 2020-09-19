@@ -1,0 +1,54 @@
+Flexbox:
+    - Son cajas flexibles
+    - Es un nuevo modelo de layout
+
+
+CONCEPTOS:
+    - REquiere de un elemento padre y al menos un elemento hijo
+    - Al padre se le llaman flex-container 
+    - A los hijos directos se le llaman flex-item
+    - Los hijos son las cajas flexibles
+    - Los margenes de los flex-items cuentan en Flexbox
+
+
+Propiedades del flex-container
+    - flex-direction:
+        * Cambia el cross-axis y main-axis de direccion
+        * row | row-reverse | column | column-reverse
+    - flex-wrap:
+        * Corta los flex-items que se desbordad
+        * nowrap | wrap | wrap-reverse
+
+    - flex-flow: flex-direction | flex-wrap 
+
+    - justify-content: 
+        * Ordenamiento a traves del eje principal
+        * flex-start | flex-end | space-between | space-around | space-evenly
+
+    - align-items    
+        * Ordenamiento a traves del eje secundario si solo hay un flex-line
+        * flex-start | flex-end | stretch | baseline
+
+    - align-content 
+        * Ordenamiento a traves del eje secundario si son varias flex-line 
+        * flex-start | center | flex-end | space-between | space-around | strech
+
+
+ 
+Propiedades al flex-item
+    - order 
+        * permite cambiar el orden en el main-axis
+    
+    - align-self
+        * Permite mover un elemento en el cros-axis
+        * flex-start | flex-end | center | baseline | stretch
+    
+
+Propiedades:
+    - flex-basis:
+        * ES el main-size inicial
+    - flex-grow: 
+        * Es el factor de crecimiento 
+    - flex-shrink:
+        * Es el factor de encogimiento
+    - flex: grow shrink basis

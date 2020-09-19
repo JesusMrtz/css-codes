@@ -1,0 +1,43 @@
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    background-color: #333;
+}
+
+.menu__item {
+    flex: auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    white-space: nowrap;
+}
+
+li {
+    position: relative;
+    background-color: #333;
+}
+
+li>ul {
+    position: absolute;
+    display: none;
+}
+
+li ul ul {
+    left: 100%;
+    top: 0;
+}
+
+li:hover>ul {
+    display: block;
+}

@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: hsl(240, 100%, 90%);
+}
+
+.item {
+    flex-basis: 40px;
+    flex-grow: 1;
+    height: 30px;
+    line-height: 30px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.item:nth-child(even) {
+    background-color: pink;
+}
+
+.item:nth-child(20) {
+    align-self: flex-end;
+}
+
+
+/*
+.item:nth-child(n+23) {
+    order: 2;
+}
+
+.item:nth-child(50) {
+    order: 1;
+}
+*/
+
+
+/*
+.item:nth-child(3) {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+*/

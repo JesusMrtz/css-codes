@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+.item {
+    flex: 1 1 80px;
+    display: flex;
+    transition: all .3s;
+}
+
+.item span {
+    margin: auto;
+    transform: rotate(-90deg);
+}
+
+.item:first-child {
+    background-color: hsl(270, 80%, 70%);
+}
+
+.item:nth-child(2) {
+    background-color: hsl(180, 80%, 50%);
+}
+
+.item:nth-child(3) {
+    background-color: hsl(270, 80%, 70%);
+}
+
+.item:nth-child(4) {
+    background-color: hsl(320, 80%, 70%);
+}
+
+.item:hover {
+    flex: 1 1 30px;
+    transition: all 1 s;
+}
+
+.item:hover span {
+    transform: none;
+}
+
+.item:not(:hover) {
+    flex: 0 1 80px;
+}
