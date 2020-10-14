@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 500px;
+    background-color: lime;
+    height: 400px;
+    flex-direction: column-reverse;
+}
+
+.item {
+    background-color: yellow;
+    flex: 5;
+    height: 40px;
+}
+
+.item:nth-child(even) {
+    background-color: rebeccapurple;
+}
+
+.item:nth-child(2) {
+    align-self: flex-end;
+}

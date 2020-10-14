@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="mb-1">
+        <h1 class="center">Propiedades flex para el contenedor padre <small>(flex-container)</small></h1>
+    </header>
+
+
+    <main class="tasks">
+        <section class="task mb-2">
+            <h2 class="task__title">
+                <code>justify-content</code>
+            </h2>
+            <div class="task__description__container mb-1">
+                <p class="task__description">
+                    La propiedad <abbr title="Cascading Style Sheet">CSS</abbr> <strong>justify-content</strong> define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor. El alineamiento
+                    se produce luego de que las longitudes y márgenes automáticos son aplicados, lo que significa que, si existe al menos un elemento flexible con flex-grow diferente a 0, no tendrá efecto ya que no habrá espacio disponible.
+                </p>
+            </div>
+            <section>
+                <h3 class="task__subtitle">Ejemplos</h3>
+                <section>
+                    <h4 class="task__subsubtitle center"><code>justify-content: flex-start</code></h4>
+                    <div class="container jc-start">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>justify-content: flex-end</code></h4>
+                    <div class="container jc-end">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>justify-content: space-between</code></h4>
+                    <div class="container jc-between">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>justify-content: space-around</code></h4>
+                    <div class="container jc-around">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <section class="task mb-2">
+            <h2 class="task__title">
+                <code>align-items</code> <small>(singleline)</small>
+            </h2>
+            <div class="task__description__container mb-1">
+                <p class="task__description">
+                    La propiedad <abbr title="Cascading Style Sheet">CSS</abbr> <strong>aling-items</strong> establece el valor align-self sobre todos los descendientes directos de un grupo. La propiedad align-self indica la alineación de un elemento
+                    dentro del bloque que lo contiene. En Flexbox controla la alineación de los elementos del Cross Axis, en Grid Layout controla la alineación de los elementos en el eje Block dentro de su área grid.
+                </p>
+            </div>
+            <section>
+                <h3 class="task__subtitle">Ejemplos</h3>
+                <section>
+                    <h4 class="task__subsubtitle center"><code>align-items: stretch</code> <small>(default)</small></h4>
+                    <div class="container container-align-items ai-stretch">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-items: flex-start</code></h4>
+                    <div class="container ia-start">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-items: flex-end</code></h4>
+                    <div class="container ai-end">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-items: center</code></h4>
+                    <div class="container ai-center">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-items: baseline</code></h4>
+                    <div class="container container-align-items ai-baseline">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <section class="task mb-2">
+            <h2 class="task__title">
+                <code>align-content</code> <small>(multiline)</small>
+            </h2>
+            <div class="task__description__container mb-1">
+                <p class="task__description">
+                    La propiedad <abbr title="Cascading Style Sheet">CSS</abbr> <strong>aling-content</strong> ajusta las líneas dentro de un contenedor flex cuando hay espacio extra en el eje transversal. Esta propiedad no tiene efecto en cajas flexibles
+                    de una sola línea.
+                </p>
+            </div>
+            <section>
+                <h3 class="task__subtitle">Ejemplos</h3>
+                <section class="containers-align-content">
+                    <h4 class="task__subsubtitle center"><code>align-content: stretch</code> <small>(default)</small></h4>
+                    <div class="container container-align-content ac-stretch">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                        <div class="item">11</div>
+                        <div class="item">12</div>
+                        <div class="item">13</div>
+                        <div class="item">14</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-content: flex-start</code></h4>
+                    <div class="container ac-start">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                        <div class="item">11</div>
+                        <div class="item">12</div>
+                        <div class="item">13</div>
+                        <div class="item">14</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-content: flex-end</code></h4>
+                    <div class="container ac-end">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                        <div class="item">11</div>
+                        <div class="item">12</div>
+                        <div class="item">13</div>
+                        <div class="item">14</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-content: space-between</code></h4>
+                    <div class="container ac-between">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                        <div class="item">11</div>
+                        <div class="item">12</div>
+                        <div class="item">13</div>
+                        <div class="item">14</div>
+                    </div>
+                    <h4 class="task__subsubtitle center"><code>align-content: around</code></h4>
+                    <div class="container ac-around">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                        <div class="item">6</div>
+                        <div class="item">7</div>
+                        <div class="item">8</div>
+                        <div class="item">9</div>
+                        <div class="item">10</div>
+                        <div class="item">11</div>
+                        <div class="item">12</div>
+                        <div class="item">13</div>
+                        <div class="item">14</div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        </section>
+    </main>
+</body>
+
+</html>

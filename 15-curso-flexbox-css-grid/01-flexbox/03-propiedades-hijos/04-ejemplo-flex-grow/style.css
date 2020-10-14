@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    width: 500px;
+    background-color: lime;
+}
+
+.item {
+    background-color: yellow;
+    flex-basis: auto;
+    flex-grow: 1;
+    transition: all .3s;
+}
+
+.item:hover {
+    flex-grow: 10;
+}
+
+.item:nth-child(even) {
+    background-color: rebeccapurple;
+}

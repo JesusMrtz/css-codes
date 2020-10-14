@@ -1,0 +1,23 @@
+¿Qué es flexbox?
+    -  Es un modelo de layout que depende de dos elementos que son:
+        * flex-container: Es un elemento padre
+        * flex-item: Hijos directos en el HTML de los flex-container
+
+
+* Los flex-items pueden ser hijos directos del HTML (etiquetas), pseudoelementos y textos
+
+
+* flex-line:
+    - Por defecto flexbox alinean los elementos en una sola linea pero puede decirle a flexbox que lo haga multiline
+        * Si es multiline cada linea es independiente de otra
+
+
+* Los axis son los ejes y unos de los temas fundamentales para entender flexbox 
+    - main-axis 
+        * main-size
+        * main-start 
+        * main-end 
+    - cross-axis
+        * cross-size 
+        * cross-start 
+        * cross-end

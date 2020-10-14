@@ -1,0 +1,28 @@
+Por dejecto los flex-items se encojen cuando el main-axis es inferior a tamaño proporcional de los hijos.
+Si este le sobra espación, los hijos no crecen
+
+
+
+PROPIEDADES DE LOS FLEX-ITEMS
+
+* flex-grow (crecimiento):
+    - solo acepta numeros
+
+
+* flex-shrink (encogimiento):
+    - solo acepta numeros
+
+* flex-basis:
+    - Define un tamaño base en el eje principal
+
+* flex: flex-grow flex-shrink flex-basis
+    - flex: none - No crece ni se reduce
+    - flex: auto - Crece y se reduce proporcionalmente
+    - flex: [valor numerico] - Crece y se reduce proporcional al valor
+
+* align-self: auto | stretch | center | flex-start | flex-end | baseline | initial | inherit
+    - Acomodar un elemento conforme al cross-axis   
+
+* order: 
+    - Reescibre un elemento a como es dibujado por el navegador
+    - Solo acepta valores numericos

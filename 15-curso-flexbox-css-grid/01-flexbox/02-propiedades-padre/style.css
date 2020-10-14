@@ -1,0 +1,149 @@
+.center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.tasks {
+    padding: .5rem 2rem;
+}
+
+.task__title {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 0;
+}
+
+.task__title>code {
+    font-family: inherit;
+}
+
+.task__description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+strong {
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.task__subsubtitle {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.task__subsubtitle>code {
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.container {
+    display: flex;
+    background-color: var(--bg-color-container);
+    height: 15rem;
+}
+
+.item {
+    width: 8%;
+    height: 25%;
+}
+
+.item:nth-of-type(odd) {
+    background-color: var(--bg-color-item-odd);
+}
+
+.item:nth-of-type(even) {
+    background-color: var(--bg-color-item-even);
+}
+
+.container-align-items:first-of-type .item {
+    height: initial;
+}
+
+.container-align-items:last-of-type .item:nth-of-type(5) {
+    font-size: 7rem;
+    height: initial;
+}
+
+.containers-align-content .container {
+    flex-wrap: wrap;
+}
+
+.containers-align-content .item {
+    height: 15%;
+}
+
+.container-align-content:first-of-type .item {
+    height: initial;
+}
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.ai-stretch {
+    align-items: stretch;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-baseline {
+    align-items: baseline;
+}
+
+.ac-stretch {
+    align-content: stretch;
+}
+
+.ac-start {
+    align-content: flex-start;
+}
+
+.ac-end {
+    align-content: flex-end;
+}
+
+.ac-between {
+    align-content: space-between;
+}
+
+.ac-around {
+    align-content: space-around;
+}

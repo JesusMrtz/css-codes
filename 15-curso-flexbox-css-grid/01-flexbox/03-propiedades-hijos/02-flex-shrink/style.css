@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 500px;
+    background-color: lime;
+}
+
+.item {
+    background-color: yellow;
+    width: 100px;
+    flex-shrink: 2;
+}
+
+.item:nth-child(even) {
+    background-color: rebeccapurple;
+}
+
+.item:nth-child(5) {
+    flex-shrink: 6;
+}
