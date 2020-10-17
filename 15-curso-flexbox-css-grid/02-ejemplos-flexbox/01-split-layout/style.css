@@ -1,0 +1,44 @@
+body {
+    background-color: steelblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.4;
+    padding: 2rem 10%;
+}
+
+.image {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 64em) {
+    .split-block {
+        display: flex;
+    }
+    .split-block:first-child {
+        flex-direction: row-reverse;
+    }
+    .split-item {
+        flex-basis: 50%;
+    }
+}

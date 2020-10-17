@@ -12,3 +12,16 @@
     --bg-color-item-odd: #F44336;
     --bg-color-item-even: #0288D1;
 }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    text-decoration: underline;
+}
