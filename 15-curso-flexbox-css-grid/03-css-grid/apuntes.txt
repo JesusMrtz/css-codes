@@ -1,0 +1,76 @@
+PROPIEDADES PADRES (CONTAINER)
+- Activar el grid al contenedor padre 
+    - display: grid; 
+
+
+- Controlar el flujo de los elementos en la grilla
+    grid-auto-flow: row | column | row dense | column dense;
+
+
+- Definir las columnas en la grilla 
+    grid-template-columns: 
+
+
+- Definir las filas en la grila 
+    - grid-template-rows: 
+
+
+- Definir espacio entre cada columna 
+    - column-gap: valorUnitario 
+
+
+- Definir espacio entre cada fila 
+    - row-gap: valorUnitario
+
+
+- shorthand para el row-gap y column-gap 
+    - gap: row-gap column-gap
+
+
+- Alinear los elementos en la celda 
+    - justify-items: stretch | start | end | center
+    - align-items: stretch | start | end | center
+
+- Alinear una grilla, siempre y cuando haya espaciado al momento de definir las columnas y filas de la fila
+    - De manera horizontal: 
+        * justify-content: 
+    - De manera vertical: 
+        * align-content
+
+
+- Darle un tamaño a una nueva fila de manera implicida 
+    - grid-auto-rows: valorUnitario;
+
+
+
+PROPIEDADES HIJAS (ITEMS)
+
+
+- Decirle a partir de que linea horizontal inicia el item 
+    - grid-row-start: valorUnitario
+
+- Decirle a partir de que linea horizontal termina el item 
+    - grid-row-end: valorUnitario
+
+
+- shorthand para los grid-row-start y grid-row-end 
+    - grid-row: grid-row-start / grid-row-end
+
+
+- Decirle a partir de que linea vertical inicia el item 
+    - grid-column-start: valorUnitario
+
+- Decirle a partir de que linea vertical termina el item 
+    - grid-column-end: valorUnitario
+
+ - shorthand para los grid-column-start y grid-column-end 
+    - grid-column: grid-column-start / grid-column-end
+
+
+- shorthand para grid-row  y grid-column 
+    - grid-area: row-start / column-start / row-end / column-end
+
+
+- Propiedades que alinean los contenidos
+    - justify-self: 
+    - align-self: 

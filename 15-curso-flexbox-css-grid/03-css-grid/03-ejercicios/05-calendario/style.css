@@ -1,0 +1,48 @@
+.calendar__week,
+.calendar__dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.calendar__week {
+    margin-bottom: 4px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-image: linear-gradient(-45deg, hsl(330, 100%, 50%), hsl(30, 100%, 50%));
+}
+
+.calendar {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.calendar__header {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.calendar__month {
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.calendar__day {
+    color: rgba(255, 255, 255, .5);
+    font-size: .8em;
+}
+
+.calendar__item {
+    text-align: center;
+    line-height: 2;
+}
+
+.calendar__date {
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff;
+}

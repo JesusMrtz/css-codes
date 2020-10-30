@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dado {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #333;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 1em;
+}
+
+.punto {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.uno .punto {
+    grid-area: 2 / 2;
+}
+
+.dos .punto:first-child,
+.tres .punto:first-child,
+.cuatro .punto:nth-child(2),
+.cinco .punto:nth-child(2),
+.seis .punto:nth-child(2) {
+    grid-area: 1 / 3;
+}
+
+.dos .punto:last-child,
+.tres .punto:last-child,
+.cuatro .punto:nth-child(3),
+.cinco .punto:nth-child(3),
+.seis .punto:nth-child(5) {
+    grid-area: 3;
+}
+
+.tres .punto:nth-child(2),
+.cinco .punto:nth-child(4) {
+    grid-area: 2 / 2;
+}
+
+.cuatro .punto:last-child,
+.cinco .punto:last-child,
+.seis .punto:last-child {
+    grid-area: 3 / 3;
+}
+
+.seis .punto:nth-child(3) {
+    grid-column: 1 / 2;
+}
+
+.seis .punto:nth-child(4) {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}

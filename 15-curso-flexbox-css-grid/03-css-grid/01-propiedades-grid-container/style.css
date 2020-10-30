@@ -1,0 +1,30 @@
+    ul {
+        margin-left: 2rem;
+    }
+    
+    .container {
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        height: 50vh;
+        border: medium solid #333;
+        background-color: steelblue;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(5, 10%);
+        grid-template-rows: repeat(4, 10%);
+        /*column-gap: 10px;
+    row-gap: 20px;*/
+        gap: 20px 10px;
+        justify-items: center;
+        align-items: end;
+        justify-content: center;
+        align-content: end;
+    }
+    
+    .item {
+        border: thin solid #333;
+        font-size: 2rem;
+        background-color: deepskyblue;
+    }
