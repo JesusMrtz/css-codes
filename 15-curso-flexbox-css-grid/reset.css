@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --bg-color-container: #FFEB3B;
+    --bg-color-item-odd: #F44336;
+    --bg-color-item-even: #0288D1;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    text-decoration: underline;
+}
